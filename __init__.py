@@ -3,10 +3,10 @@ from .account.balance_details import BalanceDetails
 
 from .operation.operation import Operation
 
-from yoomoney.operation_details.operation_details import OperationDetails
-from yoomoney.operation_details.digital_bonus import DigitalBonus
-from yoomoney.operation_details.digital_product import DigitalProduct
-from yoomoney.operation_details.digital_good import DigitalGood
+from yoomoney_async.operation_details.operation_details import OperationDetails
+from yoomoney_async.operation_details.digital_bonus import DigitalBonus
+from yoomoney_async.operation_details.digital_product import DigitalProduct
+from yoomoney_async.operation_details.digital_good import DigitalGood
 
 from .history.history import History
 
